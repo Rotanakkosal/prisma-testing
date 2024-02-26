@@ -1,13 +1,13 @@
 
-/**
- * @swagger
- * /api/user:
- *   get:
- *     description: Returns the hello world
- *     responses:
- *       200:
- *         description: Hello World!
- */
+// /**
+//  * @swagger
+//  * /api/user:
+//  *   get:
+//  *     description: Returns the hello world
+//  *     responses:
+//  *       200:
+//  *         description: Hello World!
+//  */
 
 import { NextResponse } from "next/server";
 import { getUsers, insertUser } from '../../../lib/prisma/user-prisma';
